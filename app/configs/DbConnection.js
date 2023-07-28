@@ -30,23 +30,3 @@ module.exports = sequelize;
     console.error('Error connecting to the database:', error);
   }
 })();
-
-// const connection = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "postman@1A",
-//     database: "my_database",
-//   });
-//   console.log(connection)
-//   const query = util.promisify(connection.query).bind(connection);
-  // connection.connect((err) => {
-  //   if (err) {
-  //     console.error("Error connecting to database: ", err);
-  //   } else {
-  //     console.log("Database connection successful");
-  //   }
-  // });
-
-  // exports.defult={
-  //   connection,query
-  // };
